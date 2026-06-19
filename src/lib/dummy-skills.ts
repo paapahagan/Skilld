@@ -1,0 +1,67 @@
+export const dummySkills: SkillRecord[] = [
+	{
+		id: "skill_001",
+		title: "TanStack Query",
+		slug: "tanstack-query",
+		description:
+			"Async state management for React — fetching, caching, and background refetching out of the box.",
+		category: "Data Fetching",
+		tags: ["react", "async", "caching", "server-state"],
+		installCommand: "npm install @tanstack/react-query",
+		createdAt: "2024-01-15T09:00:00.000Z",
+		authorClerkId: "user_2abc123",
+		authorEmail: "paa@peoplehub.dev",
+	},
+	{
+		id: "skill_002",
+		title: "TanStack Router",
+		slug: "tanstack-router",
+		description:
+			"Fully type-safe, file-based routing with first-class search param management and nested layouts.",
+		category: "Routing",
+		tags: ["react", "routing", "typescript", "file-based"],
+		installCommand: "npm install @tanstack/react-router",
+		createdAt: "2024-02-03T11:30:00.000Z",
+		authorClerkId: "user_2abc123",
+		authorEmail: "paa@peoplehub.dev",
+	},
+	{
+		id: "skill_003",
+		title: "TanStack Table",
+		slug: "tanstack-table",
+		description:
+			"Headless table engine with sorting, filtering, pagination, and grouping — zero UI opinions.",
+		category: "UI Components",
+		tags: ["react", "table", "headless", "data-grid"],
+		installCommand: "npm install @tanstack/react-table",
+		createdAt: "2024-03-20T14:00:00.000Z",
+		authorClerkId: null,
+		authorEmail: null,
+	},
+	{
+		id: "skill_004",
+		title: "TanStack Form",
+		slug: "tanstack-form",
+		description:
+			"Type-safe, headless form state management with built-in validation and Zod schema support.",
+		category: "Forms",
+		tags: ["react", "forms", "validation", "zod", "typescript"],
+		installCommand: "npm install @tanstack/react-form",
+		createdAt: "2024-04-10T08:45:00.000Z",
+		authorClerkId: "user_2xyz789",
+		authorEmail: "dev@example.com",
+	},
+	{
+		id: "skill_005",
+		title: "TanStack Virtual",
+		slug: "tanstack-virtual",
+		description:
+			"Virtualises large lists and grids — only renders visible rows in the DOM for maximum performance.",
+		category: "Performance",
+		tags: ["react", "virtualisation", "performance", "large-lists"],
+		installCommand: "npm install @tanstack/react-virtual",
+		createdAt: null,
+		authorClerkId: null,
+		authorEmail: null,
+	},
+];
