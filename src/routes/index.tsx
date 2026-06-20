@@ -15,9 +15,9 @@ function Home() {
 						<span className=" text-gradient"> Agentic Intelligence</span>
 					</h1>
 					<p>
-						A high-performance registry for procedural agent skills. Dişcover,
+						A high-performance registry for procedural agent skills. Discover,
 						publish, and operate reusable agent capabilities from a route-driven
-						workspace.|
+						workspace.
 					</p>
 				</div>
 				<div className="actions">

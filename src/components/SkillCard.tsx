@@ -66,7 +66,7 @@ const SkillCard = ({
 					<p className="category">{category}</p>
 				</div>
 				<div className="summary">
-					<Link to="/skill" className="title-link">
+					<Link to="/skills" className="title-link">
 						<h3>{title}</h3>
 					</Link>
 
@@ -82,7 +82,7 @@ const SkillCard = ({
 						type="button"
 						className="copy"
 						onClick={handleCopy}
-						arial-label="copy install command"
+						aria-label="copy install command"
 					>
 						{copied ? <Check size={16} /> : <Copy size={16} />}
 					</button>
